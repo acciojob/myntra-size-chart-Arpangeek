@@ -3,13 +3,78 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 40px auto;
+      font-family: Arial, sans-serif;
+    }
 
+    thead {
+      background-color: #b0413e;
+      color: white;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 10px 15px;
+      text-align: center;
+    }
+
+    tbody tr:nth-child(1) {
+      background-color: #f5b5b0; /* light pink for Waist */
+    }
+
+    tbody tr:nth-child(2) {
+      background-color: #f9d2cf; /* same as Waist for Chest */
+    }
+
+    tbody tr:nth-child(3) {
+      background-color: #d1d1d1; /* gray for Sleeve */
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Part</th>
+        <th>XS</th>
+        <th>S</th>
+        <th>M</th>
+        <th>L</th>
+        <th>XL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Waist</td>
+        <td>25</td>
+        <td>28</td>
+        <td>30</td>
+        <td>31</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td>Chest</td>
+        <td>34</td>
+        <td>34</td>
+        <td>38</td>
+        <td>40</td>
+        <td>41</td>
+      </tr>
+      <tr>
+        <td>Sleeve</td>
+        <td>23</td>
+        <td>24</td>
+        <td>24</td>
+        <td>25</td>
+        <td>25</td>
+      </tr>
+    </tbody>
+  </table>
 
 </body>
 
